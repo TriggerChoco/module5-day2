@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 
 export default function Cart() {
-  const [cartItems, setCartItems] = useState({ cart: [] });
 
   useEffect(() => {
     async function loadData() {
